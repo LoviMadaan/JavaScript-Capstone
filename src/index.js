@@ -1,4 +1,4 @@
 import './index.css';
-// import getFoods from './modules/getFoods.js';
+import getFoods from './modules/getFoods.js';
 
-// window.onload = getFoods();
+window.onload = getFoods();
