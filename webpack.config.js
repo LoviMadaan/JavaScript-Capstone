@@ -1,45 +1,44 @@
 /* eslint-disable */
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: "development",
-  entry: ["./src/index.js"],
-  output: {
-    filename: "[name].js",
-    path: path.resolve(__dirname, "dist"),
-    clean: true,
-  },
-  devServer: {
-    static: {
-      directory: path.resolve(__dirname, "src"),
-    },
-    compress: true,
-    port: 8080,
-  },
-
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: "LEADERBOARD",
-      template: "./src/index.html",
-    }),
-  ],
-
+  mode: 'development',
   module: {
     rules: [
       {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.png$/i,
-        type: "asset/resource",
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"]
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   },
+  entry: './src/index.js',
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'src', 'index.html'),
+    }),
+  ],
+  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+  },
+  devServer: {
+    static: path.join(__dirname, 'dist'),
+    compress: true,
 
-  
-  optimization: {
-    runtimeChunk: "single",
   },
 };

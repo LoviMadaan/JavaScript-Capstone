@@ -1,42 +1,46 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>Food Recipe App</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Punjabi Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css"
+      integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      difer
+      src="https://kit.fontawesome.com/933ba69917.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <nav class="nav-bar">
-          <div class="nav-img">
-            <a href=""><img src="" alt="logo-img" /></a>
-          </div>
-          <ul class="nav-list">
-            <li>Meals <small class="small-food-counter"></small></li>
-            <li>Ingredients</li>
-            <li>About us</li>
-          </ul>
-        </nav>
-      </header>      
-    <div class="big-container">
-        <div class="meal-container">
-            <div class="search-meal">
-                <h2 class="page-title">Let's Start Cooking with Easy and Delicious Food Recipes</h2>
-            <blockquote>You don't need a silver fork to eat good food.<br>
-                <cite>Paul</cite>
-            </blockquote>
-
-            <div class="search-form">
-                <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
-          <button type = "submit" class = "search-btn btn" id = "search-btn">
-            <i class = "fas fa-search"></i>
-          </button>
-            </div>
-            </div>
+      <nav class="navigation">
+        <div class="navImage">
+          <a href=""><img src="./Assets/punjabiLogo-PhotoRoom.png" alt="logo" /></a>
         </div>
-    </div>
-</body>
+        <ul class="navList">
+          <li>Menu <small class="menuCounter"></small></li>
+          <li>Ingredients</li>
+          <li>About us</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="displayCard"></main>
+    <div id="popSection"></div>
+    <footer>
+      <p class="copyright"><strong>Copyright:</strong><i class="fa-solid fa-copyright"></i> @Kel-nana and @ Lovi Madaan</p>
+    </footer>
+  </body>
 </html>
