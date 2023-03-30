@@ -60,13 +60,13 @@ const popUp = async (index) => {
 
   // Add event listener to close button and cardExternalArea
   const closeBtn2 = document.querySelector('.closeBtn');
-  const cardExternalArea = document.querySelector('.popUp');
+  // const cardExternalArea = document.querySelector('.popUp');
   closeBtn2.addEventListener('click', () => {
     popSection.innerHTML = '';
   });
-  cardExternalArea.addEventListener('click', () => {
-    popSection.innerHTML = '';
-  });
+  // cardExternalArea.addEventListener('click', () => {
+  //   popSection.innerHTML = '';
+  // });
   const submit = document.getElementById('submit');
   submit.addEventListener('click', async (e) => {
     e.preventDefault();
