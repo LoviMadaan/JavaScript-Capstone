@@ -5,7 +5,7 @@
   <img src="./src/Assets/punjabiLogo-PhotoRoom.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Punjabi food</b></h3>
+  <h3><b>Punjabi food.</b></h3>
 
 </div>
 
