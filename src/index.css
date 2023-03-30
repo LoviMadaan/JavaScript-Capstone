@@ -179,7 +179,7 @@ body::-webkit-scrollbar-thumb {
   background-image: url(./Assets/background.jpg);
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   margin-top: 65px;
-  width: 80%;
+  width: 60%;
   max-height: 71vh;
   overflow: auto;
   background-color: rgb(3, 3, 3);
