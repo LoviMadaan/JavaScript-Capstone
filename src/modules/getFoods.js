@@ -3,7 +3,6 @@ import addLike from './addLike.js';
 import getLikes from './getLikes.js';
 import menuCounter from './menuCounter.js';
 
-
 // Asynchronous function to fetch and display food items
 const getFoods = async () => {
   // Fetching data from API
@@ -59,7 +58,6 @@ const getFoods = async () => {
 
   // Updating the food counter text
   counterText.innerHTML = `(${menuCounter()})`;
-
 };
 
-  export default getFoods;
+export default getFoods;

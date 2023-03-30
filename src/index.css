@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
-
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +7,6 @@ body {
   background-image: url(./Assets/background.jpg);
   background-size: 100% 120%;
   background-repeat: no-repeat;
-
 }
 
 body::-webkit-scrollbar {
@@ -31,7 +29,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   width: 100%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
   backdrop-filter: blur(10px);
   z-index: 999;
 }
@@ -42,7 +40,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   border-bottom-right-radius: 70px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   border: 1px solid goldenrod;
   overflow: hidden;
   margin-left: 3rem;
@@ -61,7 +59,6 @@ body::-webkit-scrollbar-thumb {
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
-
 }
 
 .displayCard {
@@ -86,7 +83,6 @@ body::-webkit-scrollbar-thumb {
   text-decoration: underline;
 }
 
-
 .food {
   display: flex;
   flex-direction: column;
@@ -95,7 +91,7 @@ body::-webkit-scrollbar-thumb {
   width: 85%;
   height: 385px;
   border: 3px solid goldenrod;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 40px;
@@ -104,14 +100,14 @@ body::-webkit-scrollbar-thumb {
 .food:hover {
   transform: scale(1.1);
   transition-duration: 1s;
-} 
+}
 
 .food-image {
   width: 96%;
   height: 250px;
   margin-top: 5px;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
   border: rgb(204, 219, 199) 1px solid;
 }
 
@@ -154,8 +150,8 @@ body::-webkit-scrollbar-thumb {
   height: 35px;
   margin-top: 10px;
   margin-bottom: 5px;
-  margin-right:55px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin-right: 55px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
   border-radius: 20px;
 }
 
@@ -200,11 +196,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .popupContainer::-webkit-scrollbar-thumb {
-  background-color: #33333300; /* color of the scroll thumb */
+  background-color: #3330; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid #746c6c; /* creates padding around scroll thumb */
 }
-
 
 .popupContainer img {
   transition-duration: 1s;
@@ -272,13 +267,12 @@ textarea {
   gap: 5px;
   padding-left: 20px;
   height: 120px;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0 25px 20px -20px;
   border: 3px solid goldenrod;
   background: rgba(128, 128, 128, 0.425);
   border-radius: 8px;
   overflow: auto;
 }
-
 
 .CommentsDiv::-webkit-scrollbar {
   width: 12px;
@@ -290,7 +284,7 @@ textarea {
 }
 
 .CommentsDiv::-webkit-scrollbar-thumb {
-  background-color: #33333300; /* color of the scroll thumb */
+  background-color: #3330; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid #746c6c; /* creates padding around scroll thumb */
 }
