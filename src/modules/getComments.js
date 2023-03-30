@@ -19,10 +19,10 @@ const getComments = async (index) => {
 
   // If the array of comments is not empty, create a paragraph element for each comment and append
   if (!isEmpty) {
-    arr.forEach(({ creationDate, username, comment }) => {
+    arr.forEach(({ username, comment }) => {
       const paragraph = document.createElement('p');
       paragraph.className = 'commentsList';
-      paragraph.innerHTML = `${creationDate} ${username}: ${comment}`;
+      paragraph.innerHTML = `${username}: ${comment}`;
       div.appendChild(paragraph);
     });
   }

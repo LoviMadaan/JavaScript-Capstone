@@ -2,10 +2,10 @@
 
 <div align="center">
   
-  <img src="./img/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./src/Assets/punjabiLogo-PhotoRoom.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Food Recipes</b></h3>
+  <h3><b>Punjabi food</b></h3>
 
 </div>
 
@@ -31,9 +31,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Food Recipes <a name="about-project"></a>
+# 📖 Punjabi food <a name="about-project"></a>
 
-**Food Recipes** is a simple project that display sea-foods from [TheMealDb](https://www.themealdb.com/api.php) Api. The user can like, comment and look the description of each foods.
+**Punjabi food** is a simple project that display sea-foods from [TheMealDb](https://www.themealdb.com/api.php) Api. The user can like, comment and look the description of each foods.
 
 ## Project view:
 > Home page view
@@ -67,7 +67,7 @@
 
 ## 🔭 Watch Video <a name="watch-video"> </a>
 
-> Check out the video for this project [Coming Soon..]()
+> Check out the video for this project [here.](https://drive.google.com/file/d/1NE7e_5tpS-JpeUcoe5Bvsca8cCA05YDY/view?usp=share_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,6 +174,6 @@ We would like to thank [Microverse](www.microverse.com) and [TheMealDb](https://
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/LoviMadaan/JavaScript-Capstone/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
