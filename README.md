@@ -67,7 +67,7 @@
 
 ## 🔭 Watch Video <a name="watch-video"> </a>
 
-> Check out the video for this project [Coming Soon..]()
+> Check out the video for this project [here.](https://drive.google.com/file/d/1NE7e_5tpS-JpeUcoe5Bvsca8cCA05YDY/view?usp=share_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
