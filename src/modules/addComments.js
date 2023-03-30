@@ -20,17 +20,3 @@ const addComment = async (itemId, username, comment) => {
 };
 
 export default addComment;
-// const addComment = async (index, name, comment) => {
-//   await fetch(`${endpointId}${endpointLink}/comments`, {
-//     method: 'POST',
-//     body: JSON.stringify({
-//       item_id: `item${index}`,
-//       username: name,
-//       comment,
-//     }),
-//     headers: {
-//       'Content-type': 'application/json; charset=UTF-8',
-//     },
-//   });
-//   await getComments(index);
-// };
