@@ -2,10 +2,10 @@
 
 <div align="center">
   
-  <img src="./img/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./src/Assets/punjabiLogo-PhotoRoom.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Food Recipes</b></h3>
+  <h3><b>Punjabi food</b></h3>
 
 </div>
 
@@ -174,6 +174,6 @@ We would like to thank [Microverse](www.microverse.com) and [TheMealDb](https://
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/LoviMadaan/JavaScript-Capstone/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

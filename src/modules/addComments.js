@@ -15,8 +15,7 @@ const addComment = async (itemId, username, comment) => {
     });
     await getComments(itemId);
   } catch (error) {
-    console.error(error);
-    // Handle the error appropriately
+    throw new Error('Failed to add like');
   }
 };
 

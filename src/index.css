@@ -178,9 +178,9 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   background-image: url(./Assets/background.jpg);
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  margin-top: 65px;
+  margin-top: 10px;
   width: 60%;
-  max-height: 71vh;
+  max-height: 85vh;
   overflow: auto;
   background-color: rgb(3, 3, 3);
   border-radius: 10px;
@@ -232,11 +232,6 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-/* .closeBtn:hover {
-  color: red;
-  transition-duration: 0.5s;
-} */
-
 form {
   display: flex;
   flex-direction: column;
@@ -266,7 +261,7 @@ textarea {
   width: 100%;
   gap: 5px;
   padding-left: 20px;
-  height: 120px;
+  height: 300px;
   box-shadow: rgba(0, 0, 0, 0.45) 0 25px 20px -20px;
   border: 3px solid goldenrod;
   background: rgba(128, 128, 128, 0.425);
@@ -325,16 +320,17 @@ textarea {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   border: 2px solid goldenrod;
-  border-bottom: 2px solid transparent;
   border-radius: 5px;
   width: 99.71%;
-  height: 50px;
+  height: 70px;
+  margin-top: 50px;
   backdrop-filter: blur(20px);
 }
 
 .copyright {
   margin-left: 2.3rem;
+  margin-top: 25px;
 }

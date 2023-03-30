@@ -15,7 +15,6 @@ const addLike = async (mealIndex) => {
     });
     return response;
   } catch (error) {
-    console.error(error);
     throw new Error('Failed to add like');
   }
 };
