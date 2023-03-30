@@ -5,7 +5,7 @@
   <img src="./src/Assets/punjabiLogo-PhotoRoom.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Punjabi food.</b></h3>
+  <h3><b>Punjabi food</b></h3>
 
 </div>
 
@@ -31,9 +31,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Food Recipes <a name="about-project"></a>
+# 📖 Punjabi food <a name="about-project"></a>
 
-**Food Recipes** is a simple project that display sea-foods from [TheMealDb](https://www.themealdb.com/api.php) Api. The user can like, comment and look the description of each foods.
+**Punjabi food** is a simple project that display sea-foods from [TheMealDb](https://www.themealdb.com/api.php) Api. The user can like, comment and look the description of each foods.
 
 ## Project view:
 > Home page view
